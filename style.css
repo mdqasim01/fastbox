@@ -1,0 +1,61 @@
+:root {
+  --primary-text-color: #183b56;
+  --secondary-text-color: #577592;
+  --accent-color: #2294ed;
+  --accent-color-dark: #1d69a3;
+  --padding-inline-section: 20px;
+}
+
+body {
+  font-family: sans-serif;
+  color: var(--primary-text-color);
+}
+.one-color {
+  color: green;
+}
+
+.top-banner {
+  width: 100%;
+  background: url("https://st3.depositphotos.com/3110937/16531/i/450/depositphotos_165317552-stock-photo-cheerful-delivery-man-happy-young.jpg")
+    no-repeat center;
+  background-size: cover;
+  padding: 16.875rem 0 9.375rem;
+  margin-top: 12px;
+}
+
+.companies-header {
+  text-align: center;
+  margin-block: 30px;
+  color: var(--primary-text-color);
+  
+}
+.logos {
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.logo {
+  height: 46px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.margin-top{
+    margin-top: 60px;
+}
+
+.div-1{
+    margin-left: 120px;
+}
+.div-1 > h4{
+    color: darkgreen;
+}
+.div-2{
+    margin-right: 120px;
+}
+.div-2 > p{
+    color: darkgrey;
+}
